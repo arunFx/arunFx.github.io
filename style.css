@@ -724,8 +724,18 @@
         -webkit-transform: scale(1);
         transform: scale(1);
         border: 10px solid #fff;
+				position: relative;
     }
-    
+    .single_service_img div.single_service_text{
+			font-size: 2rem;
+			padding: 2rem;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			color: #fff;
+			background-color: rgba(0,0,0,0.5);
+    }
     .single_service_title {
         height: auto;
         position: relative;
@@ -2580,4 +2590,38 @@
 .phone-no {
     margin-bottom: 10px;
     letter-spacing: 1.5px;
+}
+.photos-section {
+	background-color: #fff;
+}
+.photo-wrap {
+	margin-bottom: 20px;
+}
+.photo-wrap img{
+	border: 10px solid #ddd;
+}
+.photo-title {
+	background-color: #000;
+	position: relative;
+}
+.title-image {
+	height: 90vh;
+	background-image: url('./img/optimized/video-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.5;
+}
+.title-text {
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	left: 0;
+	z-index: 2;
+	color: #fff;
+	position: absolute;
+	transform: translateY(-50%);
+}
+.photos-section:nth-child(odd) {
+	background-color: #f1f1f1;
 }
