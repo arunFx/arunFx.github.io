@@ -1327,7 +1327,7 @@
     .testimonial_area {
         position: relative;
         z-index: 1;
-        background-image: url(img/bg-pattern/tes-bg.jpg);
+        background-image: url(img/bg-pattern/bg-1.jpg);
         background-position: center center;
         background-attachment: fixed;
     }
